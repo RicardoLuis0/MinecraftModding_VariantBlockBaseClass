@@ -6,9 +6,9 @@ import net.minecraft.block.material.Material;
 public class VariantBlockExample extends VariantBlock{
 	static {
 		/*
-		You Must Set The 'variants' Variable Here( Preferably To a 'StringArrayProperty' ), Or Else You'll Get A NullPointerExeption
+		You Must Set The 'variants' Variable Here( Preferably To A 'StringArrayProperty' ), Or Else You'll Get A NullPointerExeption
 		
-		StringArrayProperty Constructor usage: StringArrayProperty(<variant name>,<array of states>)
+		StringArrayProperty Constructor usage: StringArrayProperty(<Variant Name>,<Array Of States>)
 		*/
 		variants=new StringArrayProperty("variant",new String[] {"variant1","variant2","variant3"});
 	}
